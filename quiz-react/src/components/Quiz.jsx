@@ -36,7 +36,6 @@ export default function Quiz({ onRestart }) {
   }
 
   if (finished) {
-    // Tela final - você pode personalizar com animação/HTML extra
     return (
       <div className="quiz">
         <h2>Você acertou {score} de {questions.length}!</h2>
@@ -66,3 +65,4 @@ export default function Quiz({ onRestart }) {
     </div>
   );
 }
+
